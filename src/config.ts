@@ -12,3 +12,6 @@ export const browserRemoteLogLevel = (process.env
 
 export const serverLogLevel = (process.env.SERVER_LOG_LEVEL ||
   "trace") as LevelsByName
+
+export const loggerContext = { name: "Ivan", isDemo: true }
+export const loggerText = "Lorem ipsum"
