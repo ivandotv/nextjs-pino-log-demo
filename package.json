@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "FORCE_COLOR=true next dev | pino-pretty -c -l -t ",
+    "debug": "NODE_OPTIONS='--inspect' next dev",
     "analyze": "env ANALYZE=true npm run build",
     "build": "next build",
     "start": "next start",
@@ -14,10 +15,12 @@
     "pino": "^7.9.2",
     "react": "18.0.0",
     "react-dom": "18.0.0",
-    "tinga": "^2.1.0",
+    "serialize-error": "^9.1.1",
+    "tinga": "^4.0.0",
     "uuid": "^8.3.2"
   },
   "devDependencies": {
+    "@next/bundle-analyzer": "^12.1.4",
     "@types/node": "17.0.23",
     "@types/react": "17.0.43",
     "@types/react-dom": "17.0.14",
