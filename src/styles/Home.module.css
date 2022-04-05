@@ -2,13 +2,12 @@
   display:flex;
   flex-direction:column;
   align-items: center;
-  /* background-color: red; */
 }
 
 .demoRow{
   margin:8px;
   padding:8px;
-  border:1px solid darkgray;
+  /* border:1px solid darkgray; */
   width: 100%;
   max-width: 300px;
 }
