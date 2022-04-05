@@ -1,7 +1,6 @@
-import styles from "../styles/Home.module.css"
-import { logger } from "lib/tinga-browser"
 import { loggerText } from "config"
-import { useState } from "react"
+import { logger } from "lib/tinga-browser"
+import styles from "../styles/Home.module.css"
 export function TingaButtons() {
   return (
     <div className={styles.buttonsWrap}>
