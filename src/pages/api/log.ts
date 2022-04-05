@@ -1,6 +1,7 @@
-import { NextApiRequest, NextApiResponse } from "next"
-import { logger } from "lib/pino-server"
 import { url } from "config"
+import { logger, withLogger } from "lib/pino-server"
+import { NextApiRequest, NextApiResponse } from "next"
+
 /**
  * Special api route for logging important events in the browser
  */
@@ -37,4 +38,4 @@ const handler = async function logFromFrontend(
   }
 }
 
-export default handler
+export default withLogger(handler)
