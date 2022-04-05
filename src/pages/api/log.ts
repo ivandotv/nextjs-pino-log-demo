@@ -20,12 +20,9 @@ const handler = async function logFromFrontend(
   }
   try {
     const { level, data, ctx } = req.body
-    // const level = payload?.level
-    // const data = payload?.data
 
     //@ts-expect-error - index type mismatch
     let fn = (logger[level] || logger.info).bind(logger)
-    // fn = fn.bind(logger)
 
     if (level && data) {
       fn({
