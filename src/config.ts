@@ -1,6 +1,8 @@
 import { LevelsByName } from "tinga"
 
-export const url = process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000"
+export const url = process.env.NEXT_PUBLIC_VERCEL_URL
+  ? `https://${process.env.NEXT_PUBLIC_VERCEL_URL}`
+  : "http://localhost:3000"
 
 export const remoteLogUrl = `${url}/api/log`
 
@@ -14,4 +16,5 @@ export const serverLogLevel = (process.env.SERVER_LOG_LEVEL ||
   "trace") as LevelsByName
 
 export const loggerContext = { name: "Ivan", isDemo: true }
+
 export const loggerText = "Lorem ipsum"
