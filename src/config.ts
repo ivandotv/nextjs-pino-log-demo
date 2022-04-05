@@ -1,9 +1,13 @@
 import { LevelsByName } from "tinga"
 
-export const url = process.env.NEXT_PUBLIC_VERCEL_URL
-  ? `https://${process.env.NEXT_PUBLIC_VERCEL_URL}`
-  : "http://localhost:3000"
+export const url =
+  process.env.NEXT_PUBLIC_VERCEL_ENV === "production"
+    ? "https://nextjs-pino-logging-demo.vercel.app"
+    : process.env.NEXT_PUBLIC_VERCEL_URL
+    ? process.env.NEXT_PUBLIC_VERCEL_URL!.replace(/\/$/, "")
+    : "http://localhost:3000"
 
+console.log("url --- ", url)
 export const remoteLogUrl = `${url}/api/log`
 
 export const browserLogLevel = (process.env.NEXT_PUBLIC_BROWSER_LOG_LEVEL ||

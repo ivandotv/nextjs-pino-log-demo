@@ -10,4 +10,6 @@ Frontend:
 
 On the frontend, `Pino` is set to log to the browser console, and also to **send** log's from the frontend to the backend `/api/log` via `navigator.sendBeacon`
 
-As an alternative for the front-end, I've also implemented the [`Tinga`](https://github.com/ivandotv/tinga)(~1.1KB) logging module, which I think is better for logging in to the browser.
+Alternative:
+
+As an alternative for the front-end, I've also implemented the [`Tinga`](https://github.com/ivandotv/tinga)(~1.1KB) logging module, which I think is better for logging in to the browser. It also sends the logs to the backend.
