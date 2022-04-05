@@ -9,7 +9,7 @@ const Home: NextPage = () => {
       <p>
         Open browser console to see the logs.
         <br />
-        Chekc network monitor to see requests to the backend.
+        Check network monitor to see requests to the backend.
       </p>
       <div className={styles.demoRow}>
         <p>Log with Pino</p>
