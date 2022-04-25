@@ -4,7 +4,7 @@ specifiers:
   '@next/bundle-analyzer': ^12.1.4
   '@types/node': 17.0.23
   '@types/react': 17.0.44
-  '@types/react-dom': 17.0.15
+  '@types/react-dom': 17.0.16
   '@types/uuid': ^8.3.4
   eslint: 8.14.0
   eslint-config-next: 12.1.5
@@ -31,7 +31,7 @@ devDependencies:
   '@next/bundle-analyzer': 12.1.4
   '@types/node': 17.0.23
   '@types/react': 17.0.44
-  '@types/react-dom': 17.0.15
+  '@types/react-dom': 17.0.16
   '@types/uuid': 8.3.4
   eslint: 8.14.0
   eslint-config-next: 12.1.5_f9aca591fe836eec9a0024e01b547f29
@@ -255,8 +255,8 @@ packages:
     resolution: {integrity: sha512-rZ5drC/jWjrArrS8BR6SIr4cWpW09RNTYt9AMZo3Jwwif+iacXAqgVjm0B0Bv/S1jhDXKHqRVNCbACkJ89RAnQ==}
     dev: true
 
-  /@types/react-dom/17.0.15:
-    resolution: {integrity: sha512-Tr9VU9DvNoHDWlmecmcsE5ZZiUkYx+nKBzum4Oxe1K0yJVyBlfbq7H3eXjxXqJczBKqPGq3EgfTru4MgKb9+Yw==}
+  /@types/react-dom/17.0.16:
+    resolution: {integrity: sha512-DWcXf8EbMrO/gWnQU7Z88Ws/p16qxGpPyjTKTpmBSFKeE+HveVubqGO1CVK7FrwlWD5MuOcvh8gtd0/XO38NdQ==}
     dependencies:
       '@types/react': 17.0.44
     dev: true
