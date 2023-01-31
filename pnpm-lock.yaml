@@ -14,7 +14,7 @@ specifiers:
   react: 18.2.0
   react-dom: 18.2.0
   serialize-error: ^11.0.0
-  tinga: ^4.0.10
+  tinga: ^5.0.0
   typescript: 4.9.5
   uuid: ^8.3.2
 
@@ -24,7 +24,7 @@ dependencies:
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   serialize-error: 11.0.0
-  tinga: 4.0.10
+  tinga: 5.1.0
   uuid: 8.3.2
 
 devDependencies:
@@ -2126,8 +2126,8 @@ packages:
       real-require: 0.1.0
     dev: false
 
-  /tinga/4.0.10:
-    resolution: {integrity: sha512-JYdehJuapyt41PBChNXyqZTfGDC5fMcrKZjjSxQUd43/gwT1V2yPelh+N+hVV7qy9VXFpHIqWES+WfIv5C7nOA==}
+  /tinga/5.1.0:
+    resolution: {integrity: sha512-48/+EDGnxYci09nSQzIM4QL7n1+x57APphPtyx9JHAJYwBPJ8/8gZmdazWPRUtbSkV6w9iBsufsEeIXbRqfd4Q==}
     dev: false
 
   /to-regex-range/5.0.1:
