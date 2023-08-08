@@ -3,7 +3,7 @@ lockfileVersion: 5.3
 specifiers:
   '@next/bundle-analyzer': ^12.1.6
   '@types/node': 17.0.45
-  '@types/react': 18.2.18
+  '@types/react': 18.2.19
   '@types/react-dom': 18.2.7
   '@types/uuid': ^8.3.4
   eslint: 8.46.0
@@ -30,7 +30,7 @@ dependencies:
 devDependencies:
   '@next/bundle-analyzer': 12.1.6
   '@types/node': 17.0.45
-  '@types/react': 18.2.18
+  '@types/react': 18.2.19
   '@types/react-dom': 18.2.7
   '@types/uuid': 8.3.4
   eslint: 8.46.0
@@ -303,11 +303,11 @@ packages:
   /@types/react-dom/18.2.7:
     resolution: {integrity: sha512-GRaAEriuT4zp9N4p1i8BDBYmEyfo+xQ3yHjJU4eiK5NDa1RmUZG+unZABUTK4/Ox/M+GaHwb6Ow8rUITrtjszA==}
     dependencies:
-      '@types/react': 18.2.18
+      '@types/react': 18.2.19
     dev: true
 
-  /@types/react/18.2.18:
-    resolution: {integrity: sha512-da4NTSeBv/P34xoZPhtcLkmZuJ+oYaCxHmyHzwaDQo9RQPBeXV+06gEk2FpqEcsX9XrnNLvRpVh6bdavDSjtiQ==}
+  /@types/react/18.2.19:
+    resolution: {integrity: sha512-e2S8wmY1ePfM517PqCG80CcE48Xs5k0pwJzuDZsfE8IZRRBfOMCF+XqnFxu6mWtyivum1MQm4aco+WIt6Coimw==}
     dependencies:
       '@types/prop-types': 15.7.4
       '@types/scheduler': 0.16.2
