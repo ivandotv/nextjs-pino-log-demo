@@ -17,7 +17,7 @@
     "react-dom": "18.2.0",
     "serialize-error": "^11.0.0",
     "tinga": "^4.0.10",
-    "uuid": "^8.3.2"
+    "uuid": "^11.0.0"
   },
   "devDependencies": {
     "@next/bundle-analyzer": "^12.1.6",
